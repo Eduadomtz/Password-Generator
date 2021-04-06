@@ -1,7 +1,7 @@
 # Password-Generator
 
 ## Description
-This project was a homework dessigned for the ITESM Bootcamp, in wich we were supossed to be familiarize a little better with Javascript and to play with it. I had a lot of problems while doing it, because I just could not undertand the logic of the language. In fact it`s incomplete but I'm studiyng really hard and pretty soon I'm going to be able to complete it. 
+This project was a homework dessigned for the ITESM Bootcamp, in which we were supossed play with some basic Javascript feaures to be more familiarized with them. We needed to include the functionality to a given "Password Generator" made with HTML and CSS.
 
 ## Installation
 This project has been deployed to GitHub. To get this project up and running, you can follow the deployment link.
@@ -29,8 +29,9 @@ Then they will appear 4 confirm windows gathering data to create you random pass
 
 <img src="./assets/images/04.png">
 
-Finally it was supossed to appear the password, I just need to keep searching and I will update the repository.
+Finally your password will be display on the screen
 
+<img src="./assets/images/05.png">
 
 ## Features
 HTML Pages
