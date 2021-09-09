@@ -40,5 +40,4 @@ Index.html
 CSS Page
 Styles.css
 
-Contains media queries
 Javascript Page

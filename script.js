@@ -27,7 +27,25 @@ function generatePassword() {
   var upper = window.confirm("Click ok to confirm including uppercase characters");
 
   //Set the choices array based on user input for different character types
+
   if (character === false && numeric === false && lower === false && upper === false) {
+    alert("Your password must include at least one element");
+    generatePassword();
+  } 
+  if (character === true) {
+    unite = unite.concat(characters);
+  }
+
+  if (numeric === true) {
+    unite = unite.concat(numbers);
+  }
+  if (lower === true) {
+    unite = unite.concat(lowercase);
+  }
+  if (upper === true) {
+    unite = unite.concat(uppercase);
+  }
+  /*if (character === false && numeric === false && lower === false && upper === false) {
     alert("Your password must include at least one element");
     generatePassword();
   } else if (character === true && numeric === true && lower === true && upper === true) {
@@ -67,7 +85,7 @@ function generatePassword() {
   } else if (character === false && numeric === false && lower === true && upper === false) {
     unite = unite.concat(lowercase);
   }
-
+*/
   //creates an empty space
   var passwordResult = "";
 
